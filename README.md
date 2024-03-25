@@ -7,6 +7,7 @@ This is the official implementation of SANeRF-HQ:
 Code is coming soon.
 
 #Citation
+
 If you find SANeRF-HQ useful in your research or refer to the provided baseline results, please star ⭐ this repository and consider citing
 ```
 @article{liu2023sanerf,
