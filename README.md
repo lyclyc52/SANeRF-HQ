@@ -6,7 +6,7 @@ SANeRF-HQ: Segment Anything for NeRF in High Quality [CVPR 2024].
 This is the official implementation of SANeRF-HQ:
 Code is coming soon.
 
-#Citation
+# Citation
 
 If you find SANeRF-HQ useful in your research or refer to the provided baseline results, please star ⭐ this repository and consider citing
 ```
