@@ -10,7 +10,7 @@ This is the official implementation of SANeRF-HQ.
 
 
 ## SANeRF-HQ Model Architecture
-<img src="imgs/main.png" width="830"/>
+<img src="main.png" width="830"/>
 
 ## Set up
 The code is based on [this repo](https://github.com/ashawkey/Segment-Anything-NeRF). 
