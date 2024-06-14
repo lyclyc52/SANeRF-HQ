@@ -4,7 +4,13 @@
 SANeRF-HQ: Segment Anything for NeRF in High Quality [CVPR 2024].
 
 This is the official implementation of SANeRF-HQ.
+> [**SANeRF-HQ: Segment Anything for NeRF in High Quality**](https://arxiv.org/abs/2312.01531)           
+> Yichen Liu, Benran Hu, Yu-Wing Tai, Chi-Keung Tang           
+> IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024     
 
+
+## Instance-NeRF Model Architecture
+<img src="imgs/main.png" width="830"/>
 
 ## Set up
 The code is based on [this repo](https://github.com/ashawkey/Segment-Anything-NeRF). 
