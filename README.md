@@ -50,37 +50,37 @@ For the evaluation masks we selected, you can download them [here](https://hkust
 
 We provide some sample scripts to use our code. For the detailed description of each arguments, please refer to our code.
 
-To train the RGB NeRF, run
-```bash
-bash scripts/train_rgb_nerf.sh
-```
+- To train the RGB NeRF, run
+  ```bash
+  bash scripts/train_rgb_nerf.sh
+  ```
 
 
-Then run the following script to obtain feature container.
-```bash
-bash scripts/train_sam_nerf.sh
-```
-You can change the container type by the flag`--feature_container`.
+- Then run the following script to obtain feature container.
+  ```bash
+  bash scripts/train_sam_nerf.sh
+  ```
+  You can change the container type by the flag`--feature_container`.
 
 
-With the feature container, you can decode the object mask per image. 
-```bash
-bash scripts/decode.sh
-```
-In decoding, 3D points are required as input. To obtain 3D points, you can project 2D points onto 3D (The script is not provided but you can find the corresponding code in `test_step` in `nerf/train.py`) or use the GUI to select points.
+- With the feature container, you can decode the object mask per image. 
+  ```bash
+  bash scripts/decode.sh
+  ```
+  In decoding, 3D points are required as input. To obtain 3D points, you can project 2D points onto 3D (The script is not provided but you can find the corresponding code in `test_step` in `nerf/train.py`) or use the GUI to select points.
 
-To use the GUI, you should add `--gui` or you can run
-```bash
-bash scripts/gui.sh
-```
-Use you 
+- To use the GUI, you should add `--gui` or you can run
+  ```bash
+  bash scripts/gui.sh
+  ```
+  Right click to select point and click `use negative labels` check box to add points with negative labels. After selection, click `save 3D points` to save those points in a json file.
 
 
-To train object field, run
-```bash
-bash scripts/train_obj_nerf.sh
-```
-Simply set `ray_pair_rgb_iter > iter` if you think that the ray pair rgb loss is slow or does not help in some cases. 
+- To train object field, run
+  ```bash
+  bash scripts/train_obj_nerf.sh
+  ```
+  Simply set `ray_pair_rgb_iter > iter` if you think that the ray pair rgb loss is slow or does not help in some cases. 
 
 
 ## Evaluation
