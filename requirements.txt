@@ -1,0 +1,24 @@
+torch==2.2.1+cu118
+rich
+tqdm
+ninja
+numpy 
+scipy
+lpips
+pandas
+PyMCubes
+dearpygui
+packaging
+matplotlib
+tensorboardX
+opencv-python
+imageio
+imageio-ffmpeg
+xatlas
+scikit-learn
+torchmetrics
+trimesh
+torch_efficient_distloss
+
+# segment-anything
+git+https://github.com/SysCV/sam-hq
