@@ -9,7 +9,7 @@ This is the official implementation of SANeRF-HQ.
 > IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024     
 
 
-## Instance-NeRF Model Architecture
+## SANeRF-HQ Model Architecture
 <img src="imgs/main.png" width="830"/>
 
 ## Set up
