@@ -19,6 +19,10 @@ First, install requirement packages
 ```bash
 pip install -r requirements.txt
 ```
+Then, go to the HQ-SAM repo and install it 
+```
+pip install segment-anything-hq
+```
 Also, you can build the extension (optional)
 ```bash
 # install all extension modules
