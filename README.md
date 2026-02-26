@@ -35,7 +35,7 @@ pip install . # install to python path (you still need the raymarching/ folder, 
 ```
 
 ## Dataset
-We use the dataset from Mip-NeRF 360, LERF, LLFF, 3DFRONT, Panoptic Lifting and Contrastive Lift. You can download the dataset from their website by clicking the following hyperlinks. Also we provide one example [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/yliugu_connect_ust_hk/ElUwJv6ohvZFggKhp_ZHaKwBDlF0R1sLiqYJNlJjqesHvw?e=lhZNjO).
+We use the dataset from Mip-NeRF 360, LERF, LLFF, 3DFRONT, Panoptic Lifting and Contrastive Lift. You can download the dataset from their website by clicking the following hyperlinks. Also we provide one example [here](https://huggingface.co/datasets/lyclyc52/SANeRF-HQ/blob/main/example_data.zip).
 
 To switch different dataset, simply change the value of the flag `--data_type` during training.
 
@@ -47,7 +47,7 @@ To switch different dataset, simply change the value of the flag `--data_type` d
  - [3D-FRONT](https://github.com/lyclyc52/Instance_NeRF): `--data_type 3dfront`. We use the data provided by Instance NeRF
  - [Panoptic Lifting](https://github.com/nihalsid/panoptic-lifting) / [Contrastive Lift](https://github.com/yashbhalgat/Contrastive-Lift): `--data_type=others`.
 
-For the evaluation masks we selected, you can download them [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/yliugu_connect_ust_hk/ElUwJv6ohvZFggKhp_ZHaKwBDlF0R1sLiqYJNlJjqesHvw?e=lhZNjO). Some datasets have ground truth segmentation (e.g. 3D-FRONT and Panoptic Lifting) so we directly use their annotation. For those without ground truth segmentation (e.g. Mip-NeRF 360), we randomly select some views and use [this](https://github.com/open-mmlab/playground) to obtain masks. Then, we pass the masks through [CascadePSP](https://github.com/hkchengrex/CascadePSP) for refinement if necessary. 
+For the evaluation masks we selected, you can download them [here](https://huggingface.co/datasets/lyclyc52/SANeRF-HQ). Some datasets have ground truth segmentation (e.g. 3D-FRONT and Panoptic Lifting) so we directly use their annotation. For those without ground truth segmentation (e.g. Mip-NeRF 360), we randomly select some views and use [this](https://github.com/open-mmlab/playground) to obtain masks. Then, we pass the masks through [CascadePSP](https://github.com/hkchengrex/CascadePSP) for refinement if necessary. 
 
 
 ## Training
